@@ -1,0 +1,26 @@
+animeverse/
+│
+├── 📁 public/                    # Frontend static files
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+├── 📁 server/                    # Backend server files
+│   ├── server.js
+│   └── models/
+│       ├── Post.js
+│       ├── Comment.js
+│       └── User.js
+│
+├── 📁 database/                  # Database configuration
+│   ├── setup.js
+│   └── seeds/
+│       └── sample-data.js
+│
+├── 📁 config/                    # Configuration files
+│   └── database.js
+│
+├── package.json                  # Node.js dependencies
+├── .env                          # Environment variables
+├── .gitignore                    # Git ignore file
+└── README.md                     # Project documentation

@@ -1,0 +1,16 @@
+{
+  "_id": ObjectId("65a1b2c3d4e5f6789012346b"),
+  "username": "AnimeLover99",
+  "comment": "I think you missed some great shonen like Chainsaw Man. Would love to see a follow-up article!",
+  "postId": ObjectId("65a1b2c3d4e5f6789012345a"),
+  "date": ISODate("2024-01-15T13:20:00Z"),
+  "likes": 8,
+  "replies": [
+    {
+      "username": "AnimeReviewer",
+      "comment": "Good point! We'll definitely cover Chainsaw Man in our next article.",
+      "date": ISODate("2024-01-15T14:00:00Z"),
+      "likes": 5
+    }
+  ]
+}

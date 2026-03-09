@@ -1,0 +1,39 @@
+{
+  "_id": ObjectId("65a1b2c3d4e5f6789012345a"),
+  "title": "Top 10 Shonen of 2024",
+  "content": "From battle shonen to psychological thrillers, we break down the best action anime released this year. Our comprehensive list includes Demon Slayer, Jujutsu Kaisen, and more...",
+  "author": "AnimeReviewer",
+  "date": ISODate("2024-01-15T10:30:00Z"),
+  "category": "Reviews",
+  "image": "https://via.placeholder.com/400x200/ff9a9e/ffffff?text=Shonen+2024",
+  "likes": 245,
+  "comments": 32,
+  "tags": ["shonen", "action", "2024", "top-list"],
+  "status": "published"
+}
+{
+  "_id": ObjectId("65a1b2c3d4e5f6789012345b"),
+  "title": "Studio Ghibli's Hidden Gems",
+  "content": "Looking beyond Spirited Away? Discover the underrated masterpieces from the legendary studio. From Whisper of the Heart to The Cat Returns...",
+  "author": "GhibliFan",
+  "date": ISODate("2024-01-12T14:20:00Z"),
+  "category": "Reviews",
+  "image": "https://via.placeholder.com/400x200/a1c4fd/ffffff?text=Ghibli+Gems",
+  "likes": 189,
+  "comments": 28,
+  "tags": ["ghibli", "studio", "classic", "reviews"],
+  "status": "published"
+}
+{
+  "_id": ObjectId("65a1b2c3d4e5f6789012345c"),
+  "title": "Season 2 Announcements",
+  "content": "The biggest news of the week: Which of your favorite shows are returning for a second season? We cover all the major announcements...",
+  "author": "NewsBot",
+  "date": ISODate("2024-01-10T09:15:00Z"),
+  "category": "News",
+  "image": "https://via.placeholder.com/400x200/cfd9df/333333?text=Season+2",
+  "likes": 312,
+  "comments": 45,
+  "tags": ["news", "season-2", "announcements"],
+  "status": "published"
+}

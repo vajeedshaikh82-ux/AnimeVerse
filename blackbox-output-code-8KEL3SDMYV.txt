@@ -1,0 +1,10 @@
+{
+  "_id": ObjectId("65a1b2c3d4e5f6789012347c"),
+  "username": "OtakuMaster",
+  "email": "otaku@example.com",
+  "password": "$2a$10$DeF789HashedPasswordExample123456789",
+  "createdAt": ISODate("2024-01-08T14:15:00Z"),
+  "role": "user",
+  "avatar": "https://via.placeholder.com/100/ff9a9e/ffffff?text=OM",
+  "bio": "Just here for the anime discussions and community!"
+}

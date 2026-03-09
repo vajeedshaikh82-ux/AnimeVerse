@@ -1,0 +1,10 @@
+{
+  "_id": ObjectId("65a1b2c3d4e5f6789012347a"),
+  "username": "AnimeReviewer",
+  "email": "reviewer@animeverse.com",
+  "password": "$2a$10$XyZ123HashedPasswordExample123456789",
+  "createdAt": ISODate("2024-01-01T08:00:00Z"),
+  "role": "admin",
+  "avatar": "https://via.placeholder.com/100/7000ff/ffffff?text=AR",
+  "bio": "Anime reviewer and content creator. Passionate about shonen and action anime!"
+}

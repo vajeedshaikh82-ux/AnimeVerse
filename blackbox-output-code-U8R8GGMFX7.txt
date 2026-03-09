@@ -1,0 +1,10 @@
+{
+  "_id": ObjectId("65a1b2c3d4e5f6789012347b"),
+  "username": "GhibliFan",
+  "email": "ghibli@example.com",
+  "password": "$2a$10$AbC456HashedPasswordExample123456789",
+  "createdAt": ISODate("2024-01-05T10:30:00Z"),
+  "role": "user",
+  "avatar": "https://via.placeholder.com/100/a1c4fd/ffffff?text=GF",
+  "bio": "Studio Ghibli enthusiast. Love classic anime and art films."
+}

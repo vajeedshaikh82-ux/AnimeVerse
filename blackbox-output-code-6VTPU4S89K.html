@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeVerse - Your Universe for Anime</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Anime<span class="highlight">Verse</span></div>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#top">Top Anime</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Welcome to AnimeVerse</h1>
+            <p>Your universe for anime reviews, news, and top lists.</p>
+            <a href="#latest" class="btn-primary">Explore Now</a>
+        </div>
+    </header>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search anime articles...">
+                <button id="search-btn">🔍</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Articles Section -->
+    <main class="container" id="latest">
+        <h2 class="section-title">Latest Articles</h2>
+        
+        <!-- Loading State -->
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Loading articles...</p>
+        </div>
+
+        <!-- Articles Grid -->
+        <div class="card-grid" id="articles-grid">
+            <!-- Articles will be loaded here from API -->
+        </div>
+
+        <!-- No Results Message -->
+        <div id="no-results" class="no-results" style="display: none;">
+            <p>No articles found matching your search.</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 AnimeVerse. All rights reserved.</p>
+    </footer>
+
+    <!-- Welcome Popup -->
+    <div id="welcome-popup" class="welcome-popup" style="display: none;">
+        <div class="popup-content">
+            <h2>Welcome to AnimeVerse! 🎌</h2>
+            <p>Explore the best anime reviews, news, and top lists.</p>
+            <button class="popup-close">Got it!</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
